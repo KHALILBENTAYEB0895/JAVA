@@ -47,6 +47,23 @@ public class Auteur {
 	public void setAge(int age) {
 		this.age = age;
 	}
+
+	public ArrayList<Livre> getListLivres() {
+		return listLivres;
+	}
+
+	public void setListLivres(ArrayList<Livre> listLivres) {
+		this.listLivres = listLivres;
+	}
+
+	@Override
+	public String toString() {
+		String ch = "Auteur [nom=" + nom + ", age=" + age + "]\n les des livres:";
+		for(Livre x : this.listLivres){
+			ch+=x;
+		}
+		return ch;
+	}
 	
 	
 }
