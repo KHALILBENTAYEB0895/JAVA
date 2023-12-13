@@ -22,7 +22,10 @@ public class MainClass {
 		Auteur A3 = new Auteur("Khalil",30,l1,l2);
 		
 		System.out.println(A3.toString());
-		
+		A3.ajouterLivre(l3);
+		System.out.println(A3.toString());
+		A3.supprimerLivre(l3);
+		System.out.println(A3.toString());
 	}
 
 }

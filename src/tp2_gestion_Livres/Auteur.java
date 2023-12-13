@@ -65,5 +65,17 @@ public class Auteur {
 		return ch;
 	}
 	
+	public void ajouterLivre(Livre l){
+		if(!this.listLivres.contains(l)) {
+			this.listLivres.add(l);
+		}
+	}
+	
+	public void supprimerLivre(Livre l) {
+		if(this.listLivres.contains(l)) {
+			this.listLivres.remove(l);
+		}
+	}
+	
 	
 }
