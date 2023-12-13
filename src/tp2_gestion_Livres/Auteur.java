@@ -58,9 +58,9 @@ public class Auteur {
 
 	@Override
 	public String toString() {
-		String ch = "Auteur [nom=" + nom + ", age=" + age + "]\n les des livres:";
+		String ch = "Auteur [nom=" + nom + ", age=" + age + "]\n liste des livres:\n";
 		for(Livre x : this.listLivres){
-			ch+=x;
+			ch+="\t-"+x.toString()+"\n";
 		}
 		return ch;
 	}
