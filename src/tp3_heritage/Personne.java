@@ -1,4 +1,4 @@
-package tp3;
+package tp3_heritage;
 import tp1.Date;
 
 public class Personne {
