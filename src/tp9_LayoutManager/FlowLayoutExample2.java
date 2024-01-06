@@ -21,6 +21,7 @@ public class FlowLayoutExample2 extends JFrame {
 		int x = Toolkit.getDefaultToolkit().getScreenSize().width;
 		int y = Toolkit.getDefaultToolkit().getScreenSize().height;
 		this.setSize(x/2,y/2);
+		this.setMinimumSize(new Dimension(100,400));
 		this.setLocationRelativeTo(null);
 		this.getContentPane().setBackground(Color.pink);
 		
